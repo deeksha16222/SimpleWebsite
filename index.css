@@ -1,0 +1,160 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul{
+    gap : 60px;
+    justify-content: space-between;
+    list-style: none;
+    padding : 0;
+    margin : 0;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .flex-item-right {
+    display: flex;
+    gap : 60px;
+    justify-content: space-between;
+  }
+
+  .wrap{
+    height: 60vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.btn1{
+    border-radius: 20px;
+    background:white;
+    border-width: 1px;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 15px;
+}​
+  
+  /* Responsive layout - makes a one column layout (100%) instead of a two-column layout (50%) */
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  }
+
+  .flex-container-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .flex-wrap-left{
+   display:flex;
+   font-size: 30px;
+   padding:10px 20px;
+   width: 50%;
+  }
+
+  .flex-wrap-right{
+    padding: 20px 60px;
+    font-size: 20px;
+    width:60%;
+    line-height: 34px;
+  }
+
+  .expertise-text{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .container{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: auto;
+    padding-bottom: auto;
+  }
+
+  .title-text{
+    font-weight: bold;
+    font-size:24px;
+  }
+
+  .detail-text{
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+  .icon-list{
+    padding-bottom: 50px;
+  }
+
+  .icon-blk-list{
+   align-items: center;
+   margin : 0;
+   justify-content: center;
+  }
+
+  .icon-blk-list ul{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap:1.5rem;
+  }
+
+  .icon-blk-list .icon-name{
+    font-size: 18px;
+ }
+
+ .container-wrapper{
+display:flex;
+position:relative;
+padding-left: 40px;
+ }
+
+ .container-wrapper .image-title{
+  display:inline-block;
+  position:relative;
+  font-weight: 500;
+  width:40%;
+  font-size:40px;
+  font-weight: bold;
+ }
+
+ .container-wrapper .image-detail{
+  display:inline-block;
+  text-align: justify;
+  width: 80%;
+  font-size: 24px;
+ }
+
+ .contact-us-blk{
+justify-content: center;
+text-align: center;
+ }
+
+ .contact-us-blk p{
+  font-size: 30px;
+ }
+
+ .input-field-list{
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+
+ }
+  
+
+
